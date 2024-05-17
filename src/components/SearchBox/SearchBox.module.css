@@ -1,0 +1,14 @@
+.wrapper {
+  max-width: 380px;
+  margin: 15px 0;
+  background-color: var(--background-color);
+  padding: 10px;
+  font-weight: 500;
+}
+
+.input {
+  display: block;
+  margin-top: 5px;
+  width: 100%;
+  height: 32px;
+}

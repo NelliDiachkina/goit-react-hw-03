@@ -1,0 +1,21 @@
+.form {
+  max-width: 380px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15px;
+  border: 1px solid var(--main-color);
+  border-radius: 5px;
+}
+
+.input {
+  display: block;
+  margin-top: 5px;
+  width: 100%;
+  height: 32px;
+}
+
+.error {
+  color: var(--color-red);
+}
