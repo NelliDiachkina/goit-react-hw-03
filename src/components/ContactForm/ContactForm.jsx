@@ -40,22 +40,12 @@ const ContactForm = ({ onAddContact }) => {
       <Form className={css.form}>
         <div className={css.formItem}>
           <label htmlFor={nameFieldId}>Name</label>
-          <Field
-            className={css.input}
-            type="text"
-            name="name"
-            id={nameFieldId}
-          />
+          <Field className={css.input} name="name" id={nameFieldId} />
           <ErrorMessage className={css.error} name="name" component="span" />
         </div>
         <div className={css.formItem}>
           <label htmlFor={numberFieldId}>Number</label>
-          <Field
-            className={css.input}
-            type="text"
-            name="number"
-            id={numberFieldId}
-          />
+          <Field className={css.input} name="number" id={numberFieldId} />
           <ErrorMessage className={css.error} name="number" component="span" />
         </div>
         <button type="submit">Add contact</button>
