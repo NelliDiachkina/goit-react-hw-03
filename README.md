@@ -11,4 +11,5 @@ Currently, two official plugins are available:
   uses [SWC](https://swc.rs/) for Fast Refresh
 
 ### Книга контактів
-![photo_2024-05-18_12-16-29](https://github.com/NelliDiachkina/goit-react-hw-03/assets/99911692/68710922-8858-4f6d-a768-02108a044553)
+![photo_2024-05-20_12-35-41](https://github.com/NelliDiachkina/goit-react-hw-03/assets/99911692/ec7195ae-fdee-4c21-a475-dfdf0f0e0c82)
+
