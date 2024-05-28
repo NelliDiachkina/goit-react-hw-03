@@ -14,12 +14,14 @@ const initialValues = {
 const contactSchema = Yup.object().shape({
   name: Yup.string()
     .min(3, 'Too Short!')
-    .max(50, 'Too Long!')
-    .required('Required'),
+    .max(20, 'Too Long!')
+    .required('Required!'),
   number: Yup.string()
-    .min(3, 'Too Short!')
-    .max(50, 'Too Long!')
-    .required('Required'),
+    .matches(
+      /^\d{3}-\d{3}-\d{2}-\d{2}$/,
+      'Invalid phone number! Please enter the number in the format XXX-XXX-XX-XX'
+    )
+    .required('Required!'),
 });
 
 const ContactForm = ({ onAddContact }) => {
